@@ -61,7 +61,7 @@ module PgArrayParser
 
   def _parse_pgarray(text, &block)
     values = []
-    return values  if text =~ /^\}\s*/
+    return values, nil if text =~ /^\}\s*/
     if text =~ /^\{\s*/
       text = $'
       while true
