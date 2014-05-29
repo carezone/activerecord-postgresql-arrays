@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.date = "2012-06-03"
   s.description = "ar_pg_array includes support of PostgreSQL's int[], float[], text[], timestamptz[] etc. into ActiveRecord. You could define migrations for array columns, query on array columns."
   s.email = "funny.falcon@gmail.com"
-  s.extra_rdoc_files = [ "README" ]
+  s.extra_rdoc_files = [ "README.md" ]
   s.files = (Dir['lib/**/*']+Dir['spec/**/*']+%w{Gemfile init.rb MIT_LICENSE README Rakefile ar_pg_array.gemspec}).find_all{|f| File.file?(f)}
   s.homepage = "http://github.com/funny-falcon/activerecord-postgresql-arrays"
   s.require_paths = ["lib"]
